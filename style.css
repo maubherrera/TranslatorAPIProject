@@ -23,6 +23,7 @@ body {
 .main {
   display: flex;
   width: 100vw;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 }
@@ -45,14 +46,14 @@ h1 {
 }
 span {
   margin: 10px 20px;
-  color: white;
+  color: #73c8a9;
   font-size: 50px;
 }
 
 .languages-container {
   display: flex;
   /* border: 1px solid red; */
-  margin-bottom: 3em;
+  margin-bottom: 1.5em;
   text-align: center;
   border-radius: 25px;
   font-size: 150%;
@@ -80,7 +81,7 @@ select {
     #ece9e6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   list-style: none;
-  max-width: 250px;
+  max-width: 450px;
 }
 
 .form-select {
@@ -109,6 +110,7 @@ option {
   /* border: 1px solid green; */
   width: 30vw;
   font-size: 150%;
+  max-width: 450px;
 }
 
 label {
