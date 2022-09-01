@@ -152,6 +152,17 @@ textarea {
   box-shadow: 10px 5px 5px black;
 }
 
+.texarea::-webkit-scrollbar {
+  width: 1em;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: #73c8a9;
+  border: none;
+  border-radius: 20px;
+}
+
 .form-select::-webkit-scrollbar {
   width: 1em;
 }
